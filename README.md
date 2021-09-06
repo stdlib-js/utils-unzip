@@ -112,6 +112,12 @@ console.dir( out );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/utils/zip`][@stdlib/utils/zip]: generate array tuples from input arrays.
+
 </section>
 
 <!-- /.related -->
@@ -173,7 +179,11 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/utils-unzip/main/LICENSE
 
+<!-- <related-links> -->
+
 [@stdlib/utils/zip]: https://github.com/stdlib-js/utils-zip
+
+<!-- </related-links> -->
 
 </section>
 
