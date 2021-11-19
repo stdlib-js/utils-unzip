@@ -20,7 +20,7 @@ limitations under the License.
 
 # Unzip
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Unzip a [zipped array][@stdlib/utils/zip] (i.e., a nested array of tuples).
 
@@ -116,7 +116,7 @@ console.dir( out );
 
 ## See Also
 
--   [`@stdlib/utils/zip`][@stdlib/utils/zip]: generate array tuples from input arrays.
+-   <span class="package-name">[`@stdlib/utils/zip`][@stdlib/utils/zip]</span><span class="delimiter">: </span><span class="description">generate array tuples from input arrays.</span>
 
 </section>
 
@@ -167,8 +167,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/utils-unzip/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/utils-unzip?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/utils-unzip.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/utils-unzip/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
