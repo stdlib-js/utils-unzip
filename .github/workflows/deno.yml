@@ -38,7 +38,7 @@ jobs:
           if [ -d index.d.ts ]; then
             cp index.d.ts ./deno/index.d.ts
           fi
-          if [ -e ./docs/types/index.d.ts ]
+          if [ -e ./docs/types/index.d.ts ]; then
             cp ./docs/types/index.d.ts ./deno/mod.d.ts
           fi
       - name: Bundle package for Deno
