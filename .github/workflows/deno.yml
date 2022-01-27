@@ -43,7 +43,7 @@ jobs:
           fi
       - name: Bundle package for Deno
         id: deno-bundle
-        uses: deno-bundle-action@main
+        uses: stdlib-js/deno-bundle-action@main
       - name: Rewrite file contents
         run: |
           # Replace internal package links with deno.land links:
