@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-unzip",
-  "version": "0.0.8",
+  "version": "0.0.0",
   "description": "Unzip a zipped array (i.e., a nested array of tuples).",
   "license": "Apache-2.0",
   "author": {
