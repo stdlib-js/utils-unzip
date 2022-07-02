@@ -59,7 +59,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.unzip;
+})();
 })();
 </script>
 ```
@@ -104,6 +106,7 @@ var out = unzip( arr, [ 0, 2 ] );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-pow@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var arr = new Array( 100 );
 var len = 5;
@@ -120,6 +123,7 @@ var out = unzip( arr );
 
 console.dir( out );
 
+})();
 })();
 </script>
 </body>
@@ -215,7 +219,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/utils/zip]: https://github.com/stdlib-js/utils-zip/tree/umd
+[@stdlib/utils/zip]: https://github.com/stdlib-js/utils-zip/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
