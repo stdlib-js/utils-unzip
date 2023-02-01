@@ -1,7 +1,7 @@
-/**
+/*
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2019 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,30 +16,32 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 2.0
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
 
 /**
-* Unzip a zipped array (i.e., a nested array of tuples).
+* Unzips a zipped array (i.e., a nested array of tuples).
 *
-* @module @stdlib/utils-unzip
+* @param arr - zipped array
+* @param idx - array of indices specifying which tuple elements to unzip
+* @returns array of unzipped arrays
 *
 * @example
-* var unzip = require( '@stdlib/utils-unzip' );
-*
 * var arr = [ [ 1, 'a', 3 ], [ 2, 'b', 4 ] ];
+*
 * var out = unzip( arr );
 * // returns [ [ 1, 2 ], [ 'a', 'b' ], [ 3, 4 ] ]
 *
-* arr = [ [ 1, 'a', 3 ], [ 2, 'b', 4 ] ];
-* out = unzip( arr, [ 0, 2 ] );
+* @example
+* var arr = [ [ 1, 'a', 3 ], [ 2, 'b', 4 ] ];
+*
+* var out = unzip( arr, [ 0, 2 ] );
 * // returns [ [ 1, 2 ], [ 3, 4 ] ]
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function unzip( arr: Array<Array<any>>, idx?: Array<number> ): Array<Array<any>>; // tslint-disable-line max-line-length
 
 
 // EXPORTS //
 
-module.exports = main;
+export = unzip;
