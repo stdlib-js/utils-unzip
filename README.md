@@ -120,7 +120,7 @@ console.dir( out );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/utils/zip`][@stdlib/utils/zip]</span><span class="delimiter">: </span><span class="description">generate array tuples from input arrays.</span>
+-   <span class="package-name">[`@stdlib/utils-zip`][@stdlib/utils/zip]</span><span class="delimiter">: </span><span class="description">generate array tuples from input arrays.</span>
 
 </section>
 
