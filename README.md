@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import unzip from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-unzip@deno/mod.js';
+import unzip from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-unzip@v0.2.1-deno/mod.js';
 ```
 
 #### unzip( arr\[, idx] )
@@ -82,7 +82,7 @@ var out = unzip( arr, [ 0, 2 ] );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import unzip from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-unzip@deno/mod.js';
+import unzip from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-unzip@v0.2.1-deno/mod.js';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@deno/mod.js';
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import pow from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-pow@deno/mod.js';
