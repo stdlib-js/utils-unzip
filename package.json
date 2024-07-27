@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-unzip",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Unzip a zipped array (i.e., a nested array of tuples).",
   "license": "Apache-2.0",
   "author": {
@@ -37,14 +37,14 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-is-array": "^0.2.1",
+    "@stdlib/assert-is-array": "^0.2.2",
     "@stdlib/assert-is-integer": "^0.2.1",
     "@stdlib/types": "^0.3.2"
   },
   "devDependencies": {
-    "@stdlib/constants-float64-eps": "^0.2.1",
+    "@stdlib/constants-float64-eps": "^0.2.2",
     "@stdlib/math-base-special-pow": "^0.2.1",
-    "@stdlib/math-base-special-round": "^0.2.1",
+    "@stdlib/math-base-special-round": "^0.3.0",
     "@stdlib/random-base-randu": "^0.2.1",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
