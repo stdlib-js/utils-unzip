@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import unzip from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-unzip@esm/index.mjs';
+import unzip from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-unzip@v0.2.2-esm/index.mjs';
 ```
 
 #### unzip( arr\[, idx] )
@@ -87,7 +87,7 @@ var out = unzip( arr, [ 0, 2 ] );
 <body>
 <script type="module">
 
-import unzip from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-unzip@esm/index.mjs';
+import unzip from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-unzip@v0.2.2-esm/index.mjs';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@esm/index.mjs';
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import pow from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-pow@esm/index.mjs';
