@@ -1,4 +1,0 @@
-// Copyright (c) 2025 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-/// <reference types="./index.d.ts" />
-import r from"https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-fmtprodmsg@esm/index.mjs";import e from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-integer@esm/index.mjs";import t from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-array@esm/index.mjs";function s(s,o){var n,i,h,f,p,d,l;if(!t(s))throw new TypeError(r("1YH1s"));for(i=s.length,p=0;p<i;p++)if(!t(s[p]))throw new TypeError(r("1YH1t"));if(n=s[0].length,arguments.length>1){if(!t(o))throw new TypeError(r("1YH1u"));for(p=0;p<o.length;p++){if(l=o[p],!e(l))throw new TypeError(r("1YH1v"));if(l<0||l>n)throw new Error(r("1YHD4"))}n=o.length}else for(o=[],p=0;p<n;p++)o.push(p);for(h=[],d=0;d<n;d++){for(f=[],l=o[d],p=0;p<i;p++)f.push(s[p][l]);h.push(f)}return h}export{s as default};
-//# sourceMappingURL=index.mjs.map
