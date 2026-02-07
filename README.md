@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import unzip from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-unzip@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-unzip/tags). For example,
+
+```javascript
 import unzip from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-unzip@v0.2.3-deno/mod.js';
 ```
 
@@ -84,7 +89,7 @@ var out = unzip( arr, [ 0, 2 ] );
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@deno/mod.js';
 import filled2dBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-filled2d-by@deno/mod.js';
-import unzip from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-unzip@v0.2.3-deno/mod.js';
+import unzip from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-unzip@deno/mod.js';
 
 function random( indices ) {
     var j = indices[ 1 ] * 100;
