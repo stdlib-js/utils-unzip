@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import unzip from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-unzip@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-unzip/tags). For example,
+
+```javascript
 import unzip from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-unzip@v0.2.3-esm/index.mjs';
 ```
 
@@ -89,7 +94,7 @@ var out = unzip( arr, [ 0, 2 ] );
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@esm/index.mjs';
 import filled2dBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-filled2d-by@esm/index.mjs';
-import unzip from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-unzip@v0.2.3-esm/index.mjs';
+import unzip from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-unzip@esm/index.mjs';
 
 function random( indices ) {
     var j = indices[ 1 ] * 100;
